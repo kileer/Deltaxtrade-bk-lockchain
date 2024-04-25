@@ -7,11 +7,11 @@ These examples shows valid setups using Chia for both docker run and docker-comp
 ### Docker run
 Simple example:
 ```bash
-docker run --name chia --expose=8444 -v /path/to/plots:/plots -d ghcr.io/chia-network/chia:latest
+docker run --name chia --expose=8444 -v /path/to/plots:/plots -d github.com/kileer/Deltaxtrade-bk-lockchain
 ```
 Syntax
 ```bash
-docker run [--name <container-name>] [--expose=<port>] [-v </path/to/plots:/plots>] -d (https://github.com/kileer/Deltaxtrade-bk-lockchain)
+docker run [--name <container-name>] [--expose=<port>] [-v </path/to/plots:/plots>] -d github.com/kileer/Deltaxtrade-bk-lockchain
 ```
 Optional Docker parameters:
 - Give the container a name: `--name=deltaxtrade`
