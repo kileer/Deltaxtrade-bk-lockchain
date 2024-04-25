@@ -1,4 +1,4 @@
-# Official Chia Docker Container
+# Official Deltaxtrade Docker Container
 
 ## Quick Start
 
