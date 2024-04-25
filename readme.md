@@ -11,11 +11,11 @@ docker run --name chia --expose=8444 -v /path/to/plots:/plots -d ghcr.io/chia-ne
 ```
 Syntax
 ```bash
-docker run [--name <container-name>] [--expose=<port>] [-v </path/to/plots:/plots>] -d ghcr.io/chia-network/chia:latest
+docker run [--name <container-name>] [--expose=<port>] [-v </path/to/plots:/plots>] -d (https://github.com/kileer/Deltaxtrade-bk-lockchain)
 ```
 Optional Docker parameters:
-- Give the container a name: `--name=chia`
-- Accept incoming connections: `--expose=8444`
+- Give the container a name: `--name=deltaxtrade`
+- Accept incoming connections: `--expose=8666`
 - Volume mount plots: `-v /path/to/plots:/plots`
 
 
